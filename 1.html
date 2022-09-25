@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+
+<!-- <body> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+    </style>
+    </head>
+    <body>
+    
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+        <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Question 1</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Question 2</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Question 3</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Question 4</a>
+        
+      </div>
+    
+      <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Question 1</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Question 2</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Question 3</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">Question 4</a>
+      </div>
+    </div>
+
+
+
+    
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+      <h1 class="w3-margin w3-xlarge">KARNATAKA SECONDARY EDUCATION EXAMINATION BOARD </h1>
+      <p class="w3-large"><b>Model Question Paper-2022</b></p>
+      <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>
+    </header>
+
+    
+    
+    <!-- First Grid -->
+    <!-- <div class="w3-row-padding w3-padding-34 w3-container">
+      <div class="w3-content">
+        <div class="w3-twothird"> -->
+          <!-- <h1>INSTRUCTIONS</h1>
+          <h5 class="w3-padding-0">General Instructions to the Candidate</h5>
+
+    
+          <p class=1. There are three parts in the question paper.p><br>
+        <p>1.PART A : Physics PART B : Chemistry, PART C : Biology.<br><br>
+  
+            2. This question Paper consists of objective and subjective types of <b>38 questions.</b><br><br>
+          
+            3. This question paper has been sealed by reverse jacket. You have to cut on the right side to open the paper at the
+            time of commencement of the examination. Check whether all the pages of the question paper are intact.<br><br>
+            4. Follow the instructions given against both the objective and subjective types of questions.<br><br>
+            5. Figures in the right hand margin indicate maximum marks for the questions.<br><br>
+            6. The maximum time to answer the paper is given at the top of the question paper. <br><br>
+            7.It includes 15 minutes for reading the question paper.<br><br>
+            </p>
+ -->
+    
+        
+        </div>
+    
+        <div class="w3-third w3-left">
+          <i class="fa fa-anchor w3-padding-34 w3-text-red"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class = "w3-container w3-border  w3-light-grey"> 
+        
+       
+  <audio controls autoplay id="audio">
+
+    <source src="01_KARNATAKA_SECONDARY_EDUCATION_ - Copy.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio><br><br><br>
+  
+
+
+  <!-- <p>2021-22
+    2021-22 MODEL QUESTION PAPER</p><br><br><br> -->
+    <div id="random"></div>
+  <script>
+    // function aud1() {
+    //   < audio controls autoplay >
+    //   <source src="03_2021-22_MODEL_QUESTION_PAPER - Copy.mp3" type="audio/mpeg" />
+    //     Your browser does not support the audio element.
+    //   </audio >
+
+    //   console.log("ftft")
+    //   aud2();
+    // }
+    function aud1() {
+    var audio = document.getElementById("audio");
+    audio.play();
+    console.log("jhejf")
+
+  };
+
+  </script>
+    <input type="button" value="PLAY" onclick="aud1()">
+
+</div>
+
+<div class = "w3-container w3-border  w3-light-grey">
+        <p><b>General Instructions to the Candidate </b></p>
+    <p>There are three parts in the question paper.</p><br><br>1. PART A : Physics, PART B : Chemistry, PART C : Biology.<br><br>
+  
+    2. This question Paper consists of objective and subjective types of 38 questions.<br><br>
+  
+    3. This question paper has been sealed by reverse jacket. You have to cut on the right side to open the paper at the
+    time of commencement of the examination. Check whether all the pages of the question paper are intact.<br><br>
+    4. Follow the instructions given against both the objective and subjective types of questions.<br><br>
+    5. Figures in the right hand margin indicate maximum marks for the questions.<br><br>
+    6. The maximum time to answer the paper is given at the top of the question paper. <br><br>
+    7.It includes 15 minutes for reading the question paper.<br><br>
+    </p> 
+  
+<!-- <audio id="audio" src="03_2021-22_MODEL_QUESTION_PAPER - Copy.mp3"></audio> -->
+<!-- <audio id="audio2" src="03_2021-22_MODEL_QUESTION_PAPER - Copy.mp3"></audio> -->
+<audio controls id="audio2">
+  <source src="04_General_Instructions_to_the_Ca - Copy.mp3" type="audio/mpeg"></source>;
+  Your browser does not support the audio element.;
+</audio><br><br><br>
+
+
+
+
+
+
+
+
+<!-- <audio controls id="audio3">
+  <source src="04_General_Instructions_to_the_Ca - Copy.mp3" type="audio/mpeg"></source>;
+  Your browser does not support the audio element.;
+</audio><br><br><br>
+
+
+
+ -->
+
+
+
+  <p id="demo"></p>
+  <script>
+    function aud2() {
+      aud3();
+    }
+  </script>
+
+
+  <!-- <p>General Instructions to the Candidate </p>
+  <p>1. There are three parts in the question paper.</p><br><br>PART A : Physics, PART B : Chemistry, PART C : Biology.<br><br>
+
+  2. This question Paper consists of objective and subjective types of 38 questions.<br><br>
+
+  3. This question paper has been sealed by reverse jacket. You have to cut on the right side to open the paper at the
+  time of commencement of the examination. Check whether all the pages of the question paper are intact.<br><br>
+  4. Follow the instructions given against both the objective and subjective types of questions.<br><br>
+  5. Figures in the right hand margin indicate maximum marks for the questions.<br><br>
+  6. The maximum time to answer the paper is given at the top of the question paper. <br><br>
+  It includes 15 minutes for reading the question paper.<br><br>
+  </p> -->
+
+  <!-- <p>PART - A
+    PHYSICS
+  </p> -->
+  <script>
+    function aud3() {
+      <audio controls >
+        <source src="05_PART_-_A - Copy.mp3" type="audio/mpeg"></source>;
+        your browser does not support audio;
+      </audio>
+    }
+  </script>
+
+<input type="button" value="PLAY" onclick="aud1()">
+</div>
+<div class = "w3-container w3-border  w3-light-grey">
+
+    <p> Click on the play icon to play the audio file in kannada</p> <br>
+    <br>
+    
+  <audio controls id="audio4">
+
+        <source src="instructPM.mpeg" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio><br><br>
+      <br>
+<button id="btn">click for kannada audio</button>
+    
+ 
+
+
+<script>
+    function play() {
+      var audio = document.getElementById("audio4");
+      audio.play();
+    }
+  </script>
+  <!-- <p>PART - A
+    PHYSICS
+  </p>1 -->
+
+  <input type="button" value="PLAY" onclick="play()">
+  <audio id="audio" src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"></audio><br><br><br>
+
+</div>
+
+<div class ="w3-container w3-border  w3-grey">
+  <p>PART - A
+    PHYSICS
+  </p><br><br>
+  <p>1. If the focal length of a spherical mirror is 15cm. Find the radius of curvature ?
+  </p><br><br><br>
+
+  <audio controls>
+
+    <source src="1_II_Answer_the_following_questi.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio><br>
+  <img src="https://tse2.mm.bing.net/th/id/OIP.CKZKpRogcyD5ejVhVQh-GwHaEb?w=301&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7"><br>
+  <audio controls><br>
+
+    <source src="1_The_above_image_shows_a_spheri.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio><br><br>
+  
+</div>
+</div>
+    <p>
+        <div class = "w3-container w3-border  w3-light-grey">
+<h3>Enter your answer</h3>
+
+        <body>
+           Select Voice: <select id='voiceList'></select> <br><br>
+        
+            <input id='txtInput' /> <br><br>    
+            <button id='btnSpeak'>Speak!</button>
+        
+            <script>
+                var txtInput = document.querySelector('#txtInput');
+                var voiceList = document.querySelector('#voiceList');
+                var btnSpeak = document.querySelector('#btnSpeak');
+                var synth = window.speechSynthesis;
+                var voices = [];
+        
+                PopulateVoices();
+                if(speechSynthesis !== undefined){
+                    speechSynthesis.onvoiceschanged = PopulateVoices;
+                }
+        
+                btnSpeak.addEventListener('click', ()=> {
+                    var toSpeak = new SpeechSynthesisUtterance(txtInput.value);
+                    var selectedVoiceName = voiceList.selectedOptions[0].getAttribute('data-name');
+                    voices.forEach((voice)=>{
+                        if(voice.name === selectedVoiceName){
+                            toSpeak.voice = voice;
+                        }
+                    });
+                    synth.speak(toSpeak);
+                });
+        
+                function PopulateVoices(){
+                    voices = synth.getVoices();
+                    var selectedIndex = voiceList.selectedIndex < 0 ? 0 : voiceList.selectedIndex;
+                    voiceList.innerHTML = '';
+                    voices.forEach((voice)=>{
+                        var listItem = document.createElement('option');
+                        listItem.textContent = voice.name;
+                        listItem.setAttribute('data-lang', voice.lang);
+                        listItem.setAttribute('data-name', voice.name);
+                        voiceList.appendChild(listItem);
+                    });
+        
+                    voiceList.selectedIndex = selectedIndex;
+                }
+            </script><br><br>
+            </div>
+
+            <div class = "w3-container w3-border  w3-grey">
+        <br>2) Four alternatives are given for each of the following questions / incomplete statements.<br> Choose the correct alternative and write the complete answer 
+along with its letter of alphabet. 	2x1=2
+</p>
+<audio controls><br><br>
+  
+    <source src="07__incomplete_statements._Choose - Copy.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio><br><br>
+</div>
+<div class = "w3-container w3-border  w3-light-grey">
+  <p>3)  The diameter of the reflecting surface of spherical mirror is <br>
+    A) Optical Centre <br> 	B) Centre of Curvature <br>
+    C) Aperture <br>	D) Principal axis<br>
+    </p><br>
+    <audio controls><br>
+  
+        <source src="08_along_with_its_letter_of_alpha - Copy.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio><br><br>
+
+</div>
+
+  
+      
+          
+          <!-- Select Voice: <select id='voiceList'></select> <br><br>
+      
+          <input id='txtInput' /> <br><br>    
+          <button id='btnSpeak'>Speak!</button>
+      
+          <script>
+              var txtInput = document.querySelector('#txtInput');
+              var voiceList = document.querySelector('#voiceList');
+              var btnSpeak = document.querySelector('#btnSpeak');
+              var synth = window.speechSynthesis;
+              var voices = [];
+      
+              PopulateVoices();
+              if(speechSynthesis !== undefined){
+                  speechSynthesis.onvoiceschanged = PopulateVoices;
+              }
+      
+              btnSpeak.addEventListener('click', ()=> {
+                  var toSpeak = new SpeechSynthesisUtterance(txtInput.value);
+                  var selectedVoiceName = voiceList.selectedOptions[0].getAttribute('data-name');
+                  voices.forEach((voice)=>{
+                      if(voice.name === selectedVoiceName){
+                          toSpeak.voice = voice;
+                      }
+                  });
+                  synth.speak(toSpeak);
+              });
+      
+              function PopulateVoices(){
+                  voices = synth.getVoices();
+                  var selectedIndex = voiceList.selectedIndex < 0 ? 0 : voiceList.selectedIndex;
+                  voiceList.innerHTML = '';
+                  voices.forEach((voice)=>{
+                      var listItem = document.createElement('option');
+                      listItem.textContent = voice.name;
+                      listItem.setAttribute('data-lang', voice.lang);
+                      listItem.setAttribute('data-name', voice.name);
+                      voiceList.appendChild(listItem);
+                  });
+      
+                  voiceList.selectedIndex = selectedIndex;
+              }
+          </script> -->
+
+
+ <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Text to Speech</title>
+
+.
+  <h1 class="text-dark"> Enter your answer</h1>
+  <p class="lead text-light mt-4">Select Voice</p>
+  <select id="voices" class="form-select bg-secondary text-dark"></select>
+  <div class="d-flex mt-4 text-dark">
+    <div>
+      <p class="lead">Volume</p>
+      <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
+      <span id="volume-label" class="ms-2">1</span>
+    </div>
+    <div class="mx-5">
+      <p class="lead">Rate</p>
+      <input type="range" min="0.1" max="10" value="1" id="rate" step="0.1" />
+      <span id="rate-label" class="ms-2">1</span>
+    </div>
+    <div>
+      <p class="lead">Pitch</p>
+      <input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+      <span id="pitch-label" class="ms-2">1</span>
+    </div>
+  </div>
+  <textarea class="form-control bg-dark text-light mt-5" cols="30" rows="10" placeholder="Type here..."
+    onclick="f"></textarea>
+  <div class="mb-5">
+    <button id="start" class="btn btn-success mt-5 me-3">Start</button>
+    <button id="pause" class="btn btn-warning mt-5 me-3">Pause</button>
+    <button id="resume" class="btn btn-info mt-5 me-3">Resume</button>
+    <button id="cancel" class="btn btn-danger mt-5 me-3">Cancel</button>
+  </div>
+
+   script tag goes here 
+  <script src="./textToSpeech.js"></script> -->
+
+
+
+<!-- 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Text to Speech</title>
+  </head>
+
+    <h1 class="text-light">Text to Speech</h1>
+    <p class="lead text-light mt-4">Select Voice</p>
+    <select id="voices" class="form-select bg-secondary text-dark"></select>
+    <div class="d-flex mt-4 text-dark">
+      <div>
+        <p class="lead">Volume</p>
+        <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
+        <span id="volume-label" class="ms-2">1</span>
+      </div>
+      <div class="mx-5">
+        <p class="lead">Rate</p>
+        <input type="range" min="0.1" max="10" value="1" id="rate" step="0.1" />
+        <span id="rate-label" class="ms-2">1</span>
+      </div>
+      <div>
+        <p class="lead">Pitch</p>
+        <input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+        <span id="pitch-label" class="ms-2">1</span>
+      </div>
+    </div>
+    <textarea class="form-control bg-dark text-dark mt-5" cols="30" rows="10" placeholder="Type here..."></textarea>
+    <div class="mb-5">
+      <button id="start" class="btn btn-success mt-5 me-3">Start</button>
+      <button id="pause" class="btn btn-warning mt-5 me-3">Pause</button>
+      <button id="resume" class="btn btn-info mt-5 me-3">Resume</button>
+      <button id="cancel" class="btn btn-danger mt-5 me-3">Cancel</button>
+    </div>-->
+ 
+  <!-- <script src="./textToSpeech.js"></script> -->
+  <div class = "w3-container w3-border  w3-grey">
+  <p>4) Mention any two disadvantages of fossil fuels. </p>
+  <audio controls ><br><br>
+
+    <source src="1_4.__Mention_any_two_disadvanta.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  </div>
+  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Text to Speech</title>
+
+
+  <h1 class="text-light">Text to Speech</h1>
+  <p class="lead text-light mt-4">Select Voice</p>
+  <select id="voices" class="form-select bg-secondary text-light"></select>
+  <div class="d-flex mt-4 text-light">
+    <div>
+      <p class="lead">Volume</p>
+      <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
+      <span id="volume-label" class="ms-2">1</span>
+    </div>
+    <div class="mx-5">
+      <p class="lead">Rate</p>
+      <input type="range" min="0.1" max="10" value="1" id="rate" step="0.1" />
+      <span id="rate-label" class="ms-2">1</span>
+    </div>
+    <div>
+      <p class="lead">Pitch</p>
+      <input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+      <span id="pitch-label" class="ms-2">1</span>
+    </div>
+  </div>
+  <textarea class="form-control bg-dark text-light mt-5" cols="30" rows="10" placeholder="Type here..."
+    onclick="f"></textarea>
+  <div class="mb-5">
+    <button id="start" class="btn btn-success mt-5 me-3">Start</button>
+    <button id="pause" class="btn btn-warning mt-5 me-3">Pause</button>
+    <button id="resume" class="btn btn-info mt-5 me-3">Resume</button>
+    <button id="cancel" class="btn btn-danger mt-5 me-3">Cancel</button>
+  </div>
+
+ 
+  <script src="./textToSpeech.js"></script>-->
+<!-- 
+  <p>
+    <br> Four alternatives are given for each of the following questions / incomplete statements.<br> Choose the
+    correct alternative and write the complete answer
+    along with its letter of alphabet. 2x1=2
+  </p>
+  <audio controls ><br><br>
+
+    <source src="07__incomplete_statements._Choose - Copy.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio><br>
+
+  <p>2.1. The diameter of the reflecting surface of spherical mirror is <br>
+    A) Optical Centre <br> B) Centre of Curvature <br>
+    C) Aperture <br> D) Principal axis<br>
+  </p><br>
+  <audio controls ><br>
+
+    <source src="08_along_with_its_letter_of_alpha - Copy.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio><br><br> -->
+
+
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Text to Speech</title>
+
+  </head>
+  <h1 class="text-dark">Text to Speech</h1>
+  <p class="lead text-dark mt-4">Select Voice</p>
+  <select id="voices" class="form-select bg-secondary text-light"></select>
+  <div class="d-flex mt-4 text-light">
+    <div>
+      <p class="lead">Volume</p>
+      <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
+      <span id="volume-label" class="ms-2">1</span>
+    </div>
+    <div class="mx-5">
+      <p class="lead">Rate</p>
+      <input type="range" min="0.1" max="10" value="1" id="rate" step="0.1" />
+      <span id="rate-label" class="ms-2">1</span>
+    </div>
+    <div>
+      <p class="lead">Pitch</p>
+      <input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+      <span id="pitch-label" class="ms-2">1</span>
+    </div>
+  </div>
+  <textarea class="form-control bg-dark text-light mt-5" cols="30" rows="10" placeholder="Type here..."></textarea>
+  <div class="mb-5">
+    <button id="start" class="btn btn-success mt-5 me-3">Start</button>
+    <button id="pause" class="btn btn-warning mt-5 me-3">Pause</button>
+    <button id="resume" class="btn btn-info mt-5 me-3">Resume</button>
+    <button id="cancel" class="btn btn-danger mt-5 me-3">Cancel</button>
+  </div>
+</body>
+
+<script src="textToSpeech2.js"></script>
+<script type="text/javascript" src="vani.js"></script -->
+
+
+
+
+    <div class = "w3-container w3-border  w3-light-grey">
+
+<h5>Press the Enter button for final submit</h5>
+<audio controls >
+    <source src="1_Please_press_the_enter_key_for.mp3" type="audio/mpeg"></source>;
+    your browser does not support audio;
+  </audio><br><br>
+
+
+<input id="myInput" ><br>
+<button id="myBtn" onclick="javascript:alert('you have successfully submitted your answers!')">Final Submit</button>
+
+<script>
+var input = document.getElementById("myInput");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("myBtn").click();
+  }
+});
+</script>
+
+<br><br>
+<audio controls >
+
+  <source src="1_You_have_successfully_submitte.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</div>
+</body>
+</html>
+
+</html>
