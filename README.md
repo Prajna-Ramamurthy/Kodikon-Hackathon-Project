@@ -1,4 +1,4 @@
-# Team_Bhavana
+# Team_Bhavana Kodikon Hackathon Project
 
 TEAM - 6
 PROJECT AKSHARA
