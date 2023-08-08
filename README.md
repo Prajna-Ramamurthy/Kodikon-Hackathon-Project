@@ -9,4 +9,4 @@ SOLUTION - Extending educational support, assistance, counselling and personalit
 
 TECHNOLOGY - HTML, CSS, Javascript, JSON, NodeJS.
 
-IMPLEMENTATION - A software (website) that facilitates various modes of online assessments (both MCQs and Descriptive questions), Mental Abilities Tests for developing Logical Thinking and Problem solving skills; Personality Development Courses for overall development; recruitment of Volunteers, Teachers, Mentors and Counsellors; Information about the NGO - Sparsha Trust, their program - "We Care for You" and about our idea - Project Akshara.
+IMPLEMENTATION - A software (website) that facilitates various modes of online assessments (both MCQs and Descriptive questions), Mental Abilities Tests for developing Logical Thinking and Problem solving skills; Personality Development Courses for overall development; recruitment of Volunteers, Teachers, Mentors and Counsellors; Information about our idea - Project Akshara.
