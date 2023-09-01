@@ -1,6 +1,5 @@
 # Team_Bhavana Kodikon Hackathon Project
 
-TEAM - 6
 PROJECT AKSHARA
 
 PROBLEM STATEMENT - Overall development of underprivileged and disabled children across India.
